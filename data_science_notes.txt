@@ -1,0 +1,8 @@
+---------------------------numpy notes------
+
+import numpy as np
+list1 = [1,2,3,4]
+
+np_array = np.array(list)  //convert python list to numpy array
+dimensions = np_array.ndim  //1
+shape = np_array.shape  //(4,)   i.e it is 1-d array with 4 values  

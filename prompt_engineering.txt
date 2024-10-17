@@ -1,0 +1,15 @@
+types of llm
+    1. base llm -> predict next word, work as a sentence completion or generation model
+    2. instruction tuned llms -> used for giving results of instructions eg. capital of france? 
+
+so we proceed like use a base llm and and feed instructions to tune it 
+
+writing clear prompts
+
+prompt = f"""
+summarize the code delimited by thriple backticks
+```{text}```
+"""
+
+
+model hallicunation -> concept of llms giving wrong, factually incorrect data 
